@@ -73,5 +73,10 @@ namespace Semana04
 
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var ListaCategoria = new ListaCategoria();
+            ListaCategoria.Show();
+        }
     }
 }

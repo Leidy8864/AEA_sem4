@@ -45,6 +45,7 @@
             <StackPanel Orientation="Horizontal">
                 <Label Content="TOTAL"/>
                 <TextBox x:Name="txtTotal" IsReadOnly="True"></TextBox>
+                <Button Content="Lista de Categorias" Width="75" Click="Button_Click"/>
             </StackPanel>
         </StackPanel>
     </Grid>
